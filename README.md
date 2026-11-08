@@ -39,17 +39,8 @@ Bu layihəni SQL mövzularını praktika etmək və öyrəndiklərimi bir yerdə
 - Öz departamentinin orta maaşından çox qazanan işçilər.
 - `DENSE_RANK()` ilə departament daxilində maaş sıralaması.
 
-## Necə işlətmək olar?
-
-1. Oracle SQL Developer proqramını aç.
-2. HR sxemi olan verilənlər bazasına qoşul.
-3. `hr_data_analysis.sql` faylını aç.
-4. Sorğuları bir-bir seçib işə sal və nəticələri yoxla.
-
-Qeyd: HR sxemi sənin bazanda aktiv olmalıdır. Əgər cədvəllərə başqa istifadəçi adı ilə qoşulursansa, sorğulardakı `hr.` prefiksini uyğunlaşdır.
 
 ## Fayllar
-
 ```text
 oracle-hr-data-analysis/
 ├── README.md
