@@ -4,13 +4,6 @@
 -- Verilənlər bazası: Oracle-ın nümunə HR bazası
 -- Tables used: EMPLOYEES, DEPARTMENTS, JOBS, LOCATIONS
 -- İstifadə olunan cədvəllər: işçilər, departamentlər, vəzifələr və şəhərlər
--- Author: [Your Name]
--- Müəllif: [Adını burada yaz]
---
--- Run these queries in Oracle SQL Developer or another Oracle SQL client.
--- Sorğuları Oracle SQL Developer proqramında bir-bir işlədib nəticələrə baxa bilərsən.
--- The HR schema must be available and accessible.
--- Bunun üçün Oracle-da HR sxemi aktiv olmalı və istifadəçinə giriş icazəsi verilməlidir.
 
 
 -- =========================================================
@@ -155,8 +148,8 @@ ORDER BY department_id, sira;
 
 
 -- =========================================================
--- BONUS 1. Highest-paid employee(s) in each job
--- ƏLAVƏ 1. Hər vəzifə üzrə ən yüksək maaş alan işçini və ya işçiləri tap
+-- 11. Highest-paid employee(s) in each job
+-- 11. Hər vəzifə üzrə ən yüksək maaş alan işçini və ya işçiləri tap
 -- =========================================================
 SELECT e.first_name,
        e.last_name,
@@ -175,8 +168,8 @@ ORDER BY e.job_id;
 
 
 -- =========================================================
--- BONUS 2. Employees earning above their department average
--- ƏLAVƏ 2. Öz departamentinin orta maaşından çox qazanan işçiləri tap
+-- 12. Employees earning above their department average
+-- 12. Öz departamentinin orta maaşından çox qazanan işçiləri tap
 -- =========================================================
 SELECT e.first_name,
        e.last_name,
@@ -195,8 +188,8 @@ ORDER BY e.salary DESC;
 
 
 -- =========================================================
--- BONUS 3. Salary ranking within each department using DENSE_RANK
--- ƏLAVƏ 3. DENSE_RANK ilə hər departamentdə maaş sıralaması yarat
+-- 13. Salary ranking within each department using DENSE_RANK
+-- 13. DENSE_RANK ilə hər departamentdə maaş sıralaması yarat
 -- Eyni maaş alanlar eyni yeri tutur, növbəti sıra isə boşluq buraxmadan davam edir.
 -- =========================================================
 SELECT first_name,
