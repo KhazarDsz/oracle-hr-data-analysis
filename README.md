@@ -30,19 +30,7 @@ Bu layihəni SQL mövzularını praktika etmək və öyrəndiklərimi bir yerdə
 8. Şəhərlər üzrə işçi sayını hesablamaq.
 9. Hər departamentdə ən yüksək maaş alan işçini və ya işçiləri tapmaq.
 10. `ROW_NUMBER()` ilə hər departamentdə ən yüksək maaş alan ilk 3 işçini göstərmək.
+11. Hər vəzifə üzrə ən yüksək maaş alan işçi və ya işçilər.
+12. Öz departamentinin orta maaşından çox qazanan işçilər.
+13. `DENSE_RANK()` ilə departament daxilində maaş sıralaması.
 
-## Əlavə sorğular
-
-Əsas 10 tapşırığa əlavə olaraq bu sorğuları da daxil etmişəm:
-
-- Hər vəzifə üzrə ən yüksək maaş alan işçi və ya işçilər.
-- Öz departamentinin orta maaşından çox qazanan işçilər.
-- `DENSE_RANK()` ilə departament daxilində maaş sıralaması.
-
-
-## Fayllar
-```text
-oracle-hr-data-analysis/
-├── README.md
-└── hr_data_analysis.sql
-```
